@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網頁導覽列</title>
+    <!-- 引入 Bootstrap CSS 檔案 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- 導覽列開始 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- 注意這裡的 navbar-dark 和 bg-dark -->
+        <a class="navbar-brand" href="#">網站名稱</a>
+        <!-- 切換按鈕（小螢幕時顯示）-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 導覽列連結 -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">個人資料</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我的作品</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我的筆記</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 導覽列結束 -->
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://storage.googleapis.com/www-cw-com-tw/article/201810/article-5bd182cf13ebb.jpg" alt="圖片描述" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <p>這裡可以添加有關圖片的文字描述或其他內容。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 插入YouTube影片 -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VKEhtOJR9wI?si=y9t1GiMhLM9qxNGx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+
+    <!-- 引入 Bootstrap JS 檔案（可選） -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
